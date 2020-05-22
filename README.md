@@ -15,6 +15,9 @@
 - ダメージ減少率は、実効防御 / (100 + 実効防御) で定義され、
   実効ダメージは、ダメージ * (1 - ダメージ減少率) を小数点以下で四捨五入した値となる。
 
+## テスト結果
+[![CircleCI](https://circleci.com/gh/nisiyuu/damage-calc-4005-v2-yarn-jest.svg?style=svg)](https://circleci.com/gh/nisiyuu/damage-calc-4005-v2-yarn-jest)
+
 ## 使い方
 
 ```js
